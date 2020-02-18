@@ -1,0 +1,29 @@
+{
+  "name": "@hqjs/babel-plugin-transform-namespace-imports",
+  "version": "0.0.1",
+  "description": "Transform namespace imports into default imports",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hqjs/babel-plugin-transform-namespace-imports.git"
+  },
+  "keywords": [
+    "babel",
+    "plugin",
+    "hq",
+    "namespace",
+    "import"
+  ],
+  "author": "hqjs <hqjs.org@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hqjs/babel-plugin-transform-namespace-imports/issues"
+  },
+  "homepage": "https://hqjs.org",
+  "publishConfig": {
+    "access": "public"
+  }
+}
