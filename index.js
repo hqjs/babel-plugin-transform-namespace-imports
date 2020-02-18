@@ -1,7 +1,7 @@
 module.exports = function({ types: t }) {
   return {
     visitor: {
-      ImportDeclaration(nodePath) {
+      ImportDeclaration(nodePath, stats) {
         const { packages } = stats.opts;
         const { specifiers } = nodePath.node;
 
